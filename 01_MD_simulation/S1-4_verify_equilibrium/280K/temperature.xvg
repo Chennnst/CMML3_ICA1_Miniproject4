@@ -1,0 +1,57 @@
+# This file was created Sun Apr 12 05:10:37 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2024.3 (-:
+# 
+# Executable:   /software/gromacs-2024.3/build/bin/gmx_mpi
+# Data prefix:  /software/gromacs-2024.3 (source tree)
+# Working dir:  /home/cmml3_shutong/3HW2_MD/280K
+# Command line:
+#   gmx_mpi energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  279.995575
+    1.000000  279.843933
+    2.000000  280.733887
+    3.000000  279.984039
+    4.000000  280.161194
+    5.000000  279.665710
+    6.000000  280.038635
+    7.000000  280.089386
+    8.000000  280.597168
+    9.000000  280.576324
+   10.000000  278.073914
+   11.000000  278.784424
+   12.000000  279.895752
+   13.000000  282.192871
+   14.000000  278.016785
+   15.000000  279.840424
+   16.000000  279.889618
+   17.000000  279.508392
+   18.000000  279.286499
+   19.000000  280.246552
+   20.000000  281.467102
+   21.000000  280.829407
+   22.000000  280.653198
+   23.000000  281.898224
+   24.000000  279.924133
+   25.000000  280.200653
+   26.000000  280.620911
+   27.000000  279.337219
+   28.000000  278.163788
+   29.000000  279.815491
+   30.000000  281.165527
+   31.000000  279.652039
+   32.000000  280.656464

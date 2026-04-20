@@ -1,0 +1,57 @@
+# This file was created Sun Apr 12 11:50:15 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2024.3 (-:
+# 
+# Executable:   /software/gromacs-2024.3/build/bin/gmx_mpi
+# Data prefix:  /software/gromacs-2024.3 (source tree)
+# Working dir:  /home/cmml3_shutong/3HW2_MD/320K
+# Command line:
+#   gmx_mpi energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  319.856171
+    1.000000  316.689453
+    2.000000  319.972565
+    3.000000  319.464722
+    4.000000  320.276489
+    5.000000  320.194611
+    6.000000  317.654144
+    7.000000  320.513641
+    8.000000  320.085785
+    9.000000  321.115082
+   10.000000  319.428528
+   11.000000  319.451385
+   12.000000  320.840729
+   13.000000  320.888123
+   14.000000  319.534851
+   15.000000  321.262512
+   16.000000  318.451996
+   17.000000  320.630524
+   18.000000  320.908661
+   19.000000  317.457458
+   20.000000  319.476685
+   21.000000  322.220367
+   22.000000  320.216461
+   23.000000  320.134827
+   24.000000  318.498535
+   25.000000  321.158875
+   26.000000  317.962494
+   27.000000  320.321350
+   28.000000  321.598114
+   29.000000  319.387054
+   30.000000  321.076385
+   31.000000  321.080109
+   32.000000  320.784515

@@ -1,0 +1,57 @@
+# This file was created Sat Apr 11 18:39:40 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2024.3 (-:
+# 
+# Executable:   /software/gromacs-2024.3/build/bin/gmx_mpi
+# Data prefix:  /software/gromacs-2024.3 (source tree)
+# Working dir:  /home/cmml3_shutong/3HW2_MD
+# Command line:
+#   gmx_mpi energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  300.444153
+    1.000000  298.296143
+    2.000000  299.845947
+    3.000000  300.010315
+    4.000000  301.211731
+    5.000000  302.378265
+    6.000000  300.449677
+    7.000000  299.391571
+    8.000000  299.814606
+    9.000000  299.767761
+   10.000000  299.576019
+   11.000000  300.843506
+   12.000000  299.015717
+   13.000000  298.838013
+   14.000000  301.154663
+   15.000000  301.124634
+   16.000000  300.580444
+   17.000000  300.237823
+   18.000000  299.997772
+   19.000000  300.645233
+   20.000000  301.842926
+   21.000000  301.135498
+   22.000000  299.746826
+   23.000000  298.823456
+   24.000000  300.675385
+   25.000000  299.103882
+   26.000000  300.439697
+   27.000000  300.478241
+   28.000000  301.104126
+   29.000000  298.870178
+   30.000000  303.029999
+   31.000000  300.573456
+   32.000000  301.015442
