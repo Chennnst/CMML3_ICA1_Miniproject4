@@ -9,19 +9,19 @@ Final MD-derived structures are compared with AlphaFold predictions to evaluate 
 ## Project Structure
 CMML3_ICA1_Miniproject4/
 ├── README.md
-
+│ 
 ├── 01_MD_simulation/
 │   ├── MD_simulations.sh               # MD simulation pipeline script
 │   ├── input_data/
 │   │   ├── 3HW2.pdb                    # Original PDB structure from RCSB PDB
-│   │   └── 3HW2_final.pdb              # Cleaned and repaired structure after MD preprocessing
+│   │   └── 3HW2_final.pdb              # Cleaned structure after MD preprocessing
 │   ├── mdp_parameter_files/            # GROMACS parameter files for MD
-│   └── S1-4_verify_equilibrium/        # MD equilibrium analysis: potential energy, temperature, pressure, density; scripts for Supplementary Figures 1-4
+│   └── S1-4_verify_equilibrium/        # MD equilibrium analysis for Figure S1-S4
 
 ├── 02_MD_analysis/
-│   ├── MD_analysis.sh                  # Trajectory analysis: RMSD, Rg, and final structure generation
+│   ├── MD_analysis.sh                  # RMSD, Rg, and final structure generation
 │   ├── RMSD/                           # RMSD results and R visualization files
-│   ├── Rg/                             # Radius of gyration results and R visualization files
+│   ├── Rg/                             # Rg and R visualization files
 │   └── final_structure/                # Final averaged MD structures
 
 ├── 03_AlphaFold_prediction/
@@ -29,10 +29,11 @@ CMML3_ICA1_Miniproject4/
 │   └── model_results/                  # AlphaFold predicted models
 
 └── 04_Structural_and_interaction_analysis/
-    ├── AFvsMD_RMSD/                    # RMSD comparison between AlphaFold and MD structures
-    ├── Interface_analysis/             # Interface H-bond count by PyMOL, interaction area analysis and visualization
+    ├── AFvsMD_RMSD/                    # RMSD comparison between AlphaFold and MD
+    ├── Interface_analysis/             # Interface H-bond count by PyMOL, and
+    │                                     interaction area visualization
     ├── Secondary_structure/            # Secondary structure proportion visualization
-    └── Structural_superposition/        # Structural alignment and visualization in PyMOL
+    └── Structural_superposition/       # Structural visualization in PyMOL
 
 ## How to Reproduce the Analysis
 
@@ -74,8 +75,6 @@ chmod +x MD_analysis.sh
 - Perform structure prediction using **AlphaFold Server**:  
   https://alphafoldserver.com/  
 - Download the top-ranked predicted model (CIF format) for subsequent analysis  
-
----
 
 ### 4. Structural and Interaction Analysis
 - Perform structural alignment and visualization using **PyMOL (v3.1.6.1)**  
