@@ -7,6 +7,8 @@ This project investigates the effect of temperature (280 K, 300 K, 320 K) on the
 Final MD-derived structures are compared with AlphaFold predictions to evaluate the limitations of static structure prediction in capturing temperature-dependent conformational variability.  
 
 ## Project Structure
+
+```text
 CMML3_ICA1_Miniproject4/
 ├── README.md
 │ 
@@ -21,8 +23,8 @@ CMML3_ICA1_Miniproject4/
 ├── 02_MD_analysis/
 │   ├── MD_analysis.sh                  # RMSD, Rg, and final structure generation
 │   ├── RMSD/                           # RMSD results and R visualization files
-│   ├── Rg/                             # Rg and R visualization files
-│   └── final_structure/                # Final averaged MD structures
+│   ├── Rg/                             # Rg results and R visualization files
+│   └── final_structure/                # Final stable MD structures (45-50ns averaged)
 
 ├── 03_AlphaFold_prediction/
 │   ├── input_sequences.txt             # Input sequences for AlphaFold prediction
