@@ -32,8 +32,7 @@ CMML3_ICA1_Miniproject4/
 
 └── 04_Structural_and_interaction_analysis/
     ├── AFvsMD_RMSD/                    # RMSD comparison between AlphaFold and MD
-    ├── Interface_analysis/             # Interface H-bond count by PyMOL, and
-    │                                     interaction area visualization
+    ├── Interface_analysis/             # Interface H-bond count by PyMOL, and interaction area visualization
     ├── Secondary_structure/            # Secondary structure proportion visualization
     └── Structural_superposition/       # Structural visualization in PyMOL
 
